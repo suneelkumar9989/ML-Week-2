@@ -10,6 +10,7 @@
 
 # SMALL INTRO ABOUT THE CHATBOT
 
+- This bot will help the user to know the current time.
 - This bot will perform calculations based on the given expression.
 - The user can also play a game with the bot.
 
