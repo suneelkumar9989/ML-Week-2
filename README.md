@@ -10,6 +10,9 @@
 
 # SMALL INTRO ABOUT THE CHATBOT
 
+- This bot will perform calculations based on the given expression.
+- The user can also play a game with the bot.
+
 # Documentation:
 
 # Youtube Link / Demo Video:  
