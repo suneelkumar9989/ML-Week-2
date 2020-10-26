@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="game.css"><!--Linking css-->
+    <script src="main.js"></script><!--Linking javascript-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <head>
+        <title>GAME</title>
+        <a title="END BOT" href="index.html"><button id="close">x</button></a><!-- Closes the game on clicking this button-->
+        <h1>SCORE</h1>
+        <h2 id="user1">USER</h2>
+        <h2 id="game">0 : 0</h2><!-- Displays score of user and bot-->
+        <h2>BOT</h2>
+        <br>
+        <h1>SELECTED</h1>
+        <h2 id="user2">USER</h2>
+        <h2 id="choose"> SELECT : SELECT </h2><!--Displays rock (or) paper (or) scissors which was selected by user and bot-->
+        <h2>BOT</h2>
+        <br><br><br><br><br><br><br><br>
+        <br>
+    </head>
+    <body>
+        <button id="rock" onclick="choice('ROCK')">ROCK</button><!--Button named rock-->
+        <button id="paper" onclick="choice('PAPER')">PAPER</button><!--Button named paper-->
+        <button id="scissors" onclick="choice('SCISSORS')">SCISSORS</button><!--Button named scissors-->
+    </body>
+</html>
